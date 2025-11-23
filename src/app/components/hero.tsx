@@ -51,7 +51,7 @@ export default function Hero() {
           <span className="blink">|</span>
         </h2>
 
-        <p className="mt-6 max-w-2xl mx-auto text-gray-700 dark:text-gray-300 text-3xl">
+        <p className="mt-6 max-w-2xl mx-auto text-black  text-3xl">
           I build modern, accessible, and high-performance web applications with
           a focus on great UX and clean code.
         </p>

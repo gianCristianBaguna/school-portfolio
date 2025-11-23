@@ -43,9 +43,9 @@ export default function Navbar() {
   return (
     <AnimatePresence>
       {!hidden && (
-        <motion.header initial={{ y: -80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -80, opacity: 0 }} transition={{ type: 'spring', stiffness: 120 }} className="fixed w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+        <motion.header initial={{ y: -80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -80, opacity: 0 }} transition={{ type: 'spring', stiffness: 120 }} className="fixed w-full z-50 bg-white/80 dark:bg-blue-500/70 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
           <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
-            <a href="#hero" className="font-bold text-lg text-blue-500">Jiiean</a>
+            <a href="#hero" className="font-bold text-lg text-white">JIIEAN</a>
 
             <nav className="hidden md:flex gap-6 items-center">
               <a href="#hero" className="hover:underline text-white">Home</a>
