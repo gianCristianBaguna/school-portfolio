@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-export default function useTypewriter(words = [], speed = 120){
+export default function useTypewriter(words:string [] = [], speed = 120){
   const [index, setIndex] = useState(0)
   const [subIndex, setSubIndex] = useState(0)
   useEffect(() => {
