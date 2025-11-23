@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { motion } from 'framer-motion'
 import useParallax from '../../hooks/useParallax'
 
@@ -34,7 +34,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }} 
           viewport={{ once: true }}
         >
-          About Me
+          <h1 className='text-blue-500'>About Me</h1>
         </motion.h2>
 
         <motion.div 

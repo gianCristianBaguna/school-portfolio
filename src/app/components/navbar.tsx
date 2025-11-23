@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -45,14 +45,14 @@ export default function Navbar() {
       {!hidden && (
         <motion.header initial={{ y: -80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -80, opacity: 0 }} transition={{ type: 'spring', stiffness: 120 }} className="fixed w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
           <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
-            <a href="#hero" className="font-bold text-lg">Jiiean</a>
+            <a href="#hero" className="font-bold text-lg text-blue-500">Jiiean</a>
 
             <nav className="hidden md:flex gap-6 items-center">
-              <a href="#hero" className="hover:underline">Home</a>
-              <a href="#about" className="hover:underline">About</a>
-              <a href="#skills" className="hover:underline">Skills</a>
-              <a href="#projects" className="hover:underline">Projects</a>
-              <a href="#contact" className="hover:underline">Contact</a>
+              <a href="#hero" className="hover:underline text-white">Home</a>
+              <a href="#about" className="hover:underline text-white">About</a>
+              <a href="#skills" className="hover:underline text-white">Skills</a>
+              <a href="#projects" className="hover:underline text-white">Projects</a>
+              <a href="#contact" className="hover:underline text-white">Contact</a>
             </nav>
 
             <div className="md:hidden flex items-center gap-3">

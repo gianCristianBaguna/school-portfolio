@@ -22,7 +22,7 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto">
         {/* Title */}
         <motion.h2
-          className="text-3xl font-bold mb-2"
+          className="text-3xl font-bold mb-2 text-blue-500"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -59,7 +59,7 @@ export default function Contact() {
               required
               name="name"
               placeholder="Your Name"
-              className="pl-10 w-full p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none transition-all"
+              className="pl-10 text-white w-full p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none transition-all"
             />
           </motion.div>
 
@@ -71,7 +71,7 @@ export default function Contact() {
               type="email"
               name="email"
               placeholder="Your Email"
-              className="pl-10 w-full p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none transition-all"
+              className="pl-10 text-white w-full p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none transition-all"
             />
           </motion.div>
 
@@ -81,7 +81,7 @@ export default function Contact() {
             <input
               name="subject"
               placeholder="Subject"
-              className="pl-10 w-full p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none transition-all"
+              className="pl-10 text-white w-full p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none transition-all"
             />
           </motion.div>
 
@@ -93,7 +93,7 @@ export default function Contact() {
               required
               name="message"
               placeholder="Write your message here..."
-              className="w-full p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none min-h-[140px] transition-all"
+              className="w-full p-3 text-white rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none min-h-[140px] transition-all"
             ></textarea>
           </motion.div>
 

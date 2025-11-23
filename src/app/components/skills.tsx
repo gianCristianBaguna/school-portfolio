@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { motion } from 'framer-motion'
 import { FaReact, FaNodeJs, FaFigma, FaGit } from 'react-icons/fa'
 import { SiNextdotjs, SiTypescript, SiTailwindcss, SiExpress } from 'react-icons/si'
@@ -15,7 +15,7 @@ export default function Skills() {
     <section id="skills" className="relative py-20 bg-gray-50 dark:bg-gray-900 px-4 overflow-hidden">
       <div className="max-w-6xl mx-auto relative z-10">
         <motion.h2 
-          className="text-4xl md:text-5xl font-bold mb-12 text-center" 
+          className="text-4xl md:text-5xl font-bold mb-12 text-center text-blue-500" 
           initial={{ opacity: 0, y: 20 }} 
           whileInView={{ opacity: 1, y: 0 }} 
           viewport={{ once: true }}

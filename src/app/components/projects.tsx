@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { motion, useMotionValue, useSpring } from 'framer-motion'
 import { useRef, ReactNode } from 'react'
 
@@ -83,7 +83,7 @@ export default function Projects() {
       </motion.div>
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Projects</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-blue-500">Projects</h2>
 
         <div className="grid md:grid-cols-3 gap-8">
           {projectData.map((p, i) => (
